@@ -1,30 +1,16 @@
 // Business Logic
 
-function pigLatin(str) {
-  str = str.toLowerCase()
-  const vowels = ["a","e","i","o","u"];
-  let vowelIndex = 0;
-
-  if (vowels.includes(str[0])) {
-    return str + "way";
-  } else {
-    for (let char of str) {
-      if (vowels.includes(char)) {
-        vowelIndex = str.indexOf(char);
-        break;
-      }
-    }
-    return str.slice(vowelIndex) + str.slice(0, vowelIndex) + "ay";
-  }
-}
+var beepBoop = function(digit) {
+  return false;
+};
 
 // User Logic
 
 $(document).ready(function() {
-  $("form#pig-latin").submit(function(event) {
+  $("form#numbers").submit(function(event) {
     event.preventDefault();
-    var word = $("input#word").val();
-    var result = pigLatin(word);
+    var digit = parseInt($("input#digit").val());
+    var result = beepBoop(digit);
     $("#result").text(result);
   });
 });
