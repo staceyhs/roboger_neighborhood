@@ -1,7 +1,13 @@
 // Business Logic
 
 var beepBoop = function(digit) {
-  return false;
+  if (digit === 3) {
+    return "Won't you be my neighbor?" 
+  } else if (digit === 2) {
+    return "Beep!";
+  } else {
+    return false;
+  }
 };
 
 // User Logic
