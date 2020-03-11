@@ -1,13 +1,27 @@
 // Business Logic
 
-var beepBoop = function(digit) {
-  if (digit === 3) {
-    return "Won't you be my neighbor?" 
-  } else if (digit === 2) {
-    return "Beep!";
-  } else {
-    return false;
+var beepBoop = (digit) => {
+  let returnString = '';
+
+  for (let i = 0; i <= digit; i++) {
+    var tempString = i.toString();
+
+    if (tempString.indexOf('3') !== -1) {
+      returnString += "Won't you be my neighbor?";
+    } else if (tempString.indexOf('2') !== -1) {
+      returnString += "Boop!";
+    } else if (tempString.indexOf('1') !== -1) {
+      returnString += "Beep!";
+    } else {
+      returnString += i.toString();
+    }
+
+    if (i !== digit) {
+      returnString += ", ";
+    }
   }
+
+  return returnString;
 };
 
 // User Logic

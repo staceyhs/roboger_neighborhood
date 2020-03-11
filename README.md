@@ -17,6 +17,9 @@ _This is a simple program to produce beeps and boops from certain number inputs.
 
 In order of importance:
 
+* _The program returns a rawnge of numbers from 0 to the user's inputted number._
+    **Input:** 4
+    **Output:** 0, 1, 2, 3, 4
 * _Numbers that contain a 3 are replaced with "Won't you be my neighbor?"_
     **Input:** 32
     **Output:** Won't you be my neighbor?
