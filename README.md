@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a simple program to produce beeps and boops from certain number inputs._
+_This is a simple program to produce beeps and boops from certain number inputs. The background animation and the attempted button animation are from YouTube and other online tutorials/resources._
 
 ## Setup/Installation Requirements
 
@@ -29,13 +29,13 @@ In order of importance:
 * _Numbers that contain a 1 are replaced with "Beep!"_
     **Input:** 14
     **Output:** Beep!
-* _If the number does not contain a 1, 2, or 3 will display a list of values._
+* _If the number does not contain a 1, 2, or 3 it will remain as is._
     **Input:** 5
     **Output:** 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_The submit button refuses to actually use the animation that I want it to. Buttons and I never seem to get along in these projects, but otherwise it functions perfectly._
 
 ## Support and contact details
 
@@ -43,6 +43,6 @@ _If you have any support, please contact me. If you need help, you're probably b
 
 ## Technologies Used
 
-_HTML, CSS, JS_
+_HTML, CSS, JS. Also referenced online tutorials and designs for extra design and for looping help._
 
 Copyright (c) 2020 **_Stacey_**
